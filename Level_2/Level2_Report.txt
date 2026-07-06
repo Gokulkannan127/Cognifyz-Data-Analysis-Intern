@@ -1,0 +1,79 @@
+============================================================
+LEVEL 2 - DATA ANALYSIS REPORT
+============================================================
+
+--- Task 1: Restaurant Ratings ---
+
+Distribution of aggregate ratings (by rating category):
+  Average: 3737 restaurants
+  Not rated: 2148 restaurants
+  Good: 2100 restaurants
+  Very Good: 1079 restaurants
+  Excellent: 301 restaurants
+  Poor: 186 restaurants
+
+Most common rating range/category: Average (3737 restaurants)
+
+Average number of votes received by restaurants: 156.91
+
+--- Task 2: Cuisine Combination ---
+
+Top 10 most common cuisine combinations:
+  North Indian, Chinese: 511 restaurants
+  North Indian, Mughlai: 334 restaurants
+  North Indian, Mughlai, Chinese: 197 restaurants
+  Bakery, Desserts: 170 restaurants
+  Pizza, Fast Food: 131 restaurants
+  Chinese, Fast Food: 118 restaurants
+  Mithai, Street Food: 116 restaurants
+  Bakery, Fast Food: 108 restaurants
+  Chinese, North Indian: 105 restaurants
+  Ice Cream, Desserts: 83 restaurants
+
+Top 10 cuisine combinations (min. 10 restaurants) by average rating:
+  Modern Indian: avg rating 4.35 (n=11)
+  Indian: avg rating 4.25 (n=18)
+  Seafood: avg rating 4.11 (n=14)
+  Thai: avg rating 4.10 (n=16)
+  Cafe, Continental, Italian: avg rating 4.08 (n=10)
+  American, Burger: avg rating 4.08 (n=13)
+  Japanese, Sushi: avg rating 4.04 (n=18)
+  Pizza, Italian: avg rating 3.67 (n=19)
+  American: avg rating 3.67 (n=31)
+  Italian: avg rating 3.66 (n=54)
+
+--- Task 3: Geographic Analysis ---
+
+Longitude range: -157.9485 to 174.8321
+Latitude range: -41.3304 to 55.9770
+
+Restaurants are heavily clustered around a few major hubs, dominated by New Delhi and other Indian NCR cities, with smaller clusters in the US, UK, UAE, and other countries represented in the dataset (see scatter plot).
+
+--- Task 4: Restaurant Chains ---
+
+Number of restaurant names appearing more than once (potential chains): 734
+Total outlets belonging to chains: 2839 out of 9551 restaurants
+
+Top 10 restaurant chains by number of outlets:
+  Cafe Coffee Day: 83 outlets
+  Domino's Pizza: 79 outlets
+  Subway: 63 outlets
+  Green Chick Chop: 51 outlets
+  McDonald's: 48 outlets
+  Keventers: 34 outlets
+  Pizza Hut: 30 outlets
+  Giani: 29 outlets
+  Baskin Robbins: 28 outlets
+  Barbeque Nation: 26 outlets
+
+Top 10 chains - ratings & popularity (total votes):
+  Cafe Coffee Day: 83 outlets, avg rating 2.42, total votes 2428
+  Domino's Pizza: 79 outlets, avg rating 2.74, total votes 6643
+  Subway: 63 outlets, avg rating 2.91, total votes 6124
+  Green Chick Chop: 51 outlets, avg rating 2.67, total votes 964
+  McDonald's: 48 outlets, avg rating 3.34, total votes 5291
+  Keventers: 34 outlets, avg rating 2.87, total votes 1263
+  Pizza Hut: 30 outlets, avg rating 3.32, total votes 4961
+  Giani: 29 outlets, avg rating 2.69, total votes 854
+  Baskin Robbins: 28 outlets, avg rating 1.86, total votes 428
+  Barbeque Nation: 26 outlets, avg rating 4.35, total votes 28142

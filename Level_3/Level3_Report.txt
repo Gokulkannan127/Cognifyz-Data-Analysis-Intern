@@ -1,0 +1,64 @@
+============================================================
+LEVEL 3 - DATA ANALYSIS REPORT
+============================================================
+
+--- Task 1: Restaurant Reviews (adapted) ---
+
+NOTE: Dataset_.csv has no raw review-text column. Using 'Rating text' (Excellent/Very Good/Good/Average/Poor/Not rated) as the closest sentiment proxy, and 'Votes' as a proxy for review engagement/volume.
+
+Rating-text ('sentiment') category counts:
+  Average: 3737
+  Not rated: 2148
+  Good: 2100
+  Very Good: 1079
+  Excellent: 301
+  Poor: 186
+
+Positive-leaning restaurants (Good/Very Good/Excellent): 3480 (36.44%)
+Negative-leaning restaurants (Poor): 186 (1.95%)
+
+Average votes (engagement proxy) by rating category:
+  Excellent: 851.8 avg votes
+  Very Good: 520.5 avg votes
+  Good: 229.4 avg votes
+  Poor: 90.7 avg votes
+  Average: 48.2 avg votes
+  Not rated: 0.9 avg votes
+
+Correlation between Votes and Aggregate Rating: 0.314
+(A positive correlation suggests that restaurants with more customer engagement/votes tend to also have higher ratings.)
+
+--- Task 2: Votes Analysis ---
+
+Top 5 restaurants with the HIGHEST number of votes:
+  Toit (Bangalore): 10934 votes, rating 4.8
+  Truffles (Bangalore): 9667 votes, rating 4.7
+  Hauz Khas Social (New Delhi): 7931 votes, rating 4.3
+  Peter Cat (Kolkata): 7574 votes, rating 4.3
+  AB's - Absolute Barbecues (Bangalore): 6907 votes, rating 4.6
+
+5 restaurants with the LOWEST number of votes:
+  Cantinho da Gula (S��o Paulo): 0 votes, rating 0.0
+  The Chaiwalas (Faridabad): 0 votes, rating 0.0
+  Fusion Food Corner (Faridabad): 0 votes, rating 0.0
+  Punjabi Rasoi (Faridabad): 0 votes, rating 0.0
+  Baskin Robbin (Faridabad): 0 votes, rating 0.0
+
+Correlation coefficient between Votes and Aggregate Rating: 0.314
+This indicates a moderate-to-strong positive relationship: restaurants with higher ratings tend to receive somewhat more votes, though rating is far from the only driver of vote volume.
+
+--- Task 3: Price Range vs. Online Delivery and Table Booking ---
+
+Percentage of restaurants offering ONLINE DELIVERY, by price range:
+  Price range 1: 15.77% offer online delivery
+  Price range 2: 41.31% offer online delivery
+  Price range 3: 29.19% offer online delivery
+  Price range 4: 9.04% offer online delivery
+
+Percentage of restaurants offering TABLE BOOKING, by price range:
+  Price range 1: 0.02% offer table booking
+  Price range 2: 7.68% offer table booking
+  Price range 3: 45.74% offer table booking
+  Price range 4: 46.76% offer table booking
+
+Observation: Table booking availability tends to rise sharply with price range (higher-end restaurants offer it far more often), while online delivery shows a different, often non-monotonic pattern -- it's most common among the mid-range restaurants and less common at the very top price tier, where fine-dining establishments are less likely to offer delivery.
